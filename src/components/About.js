@@ -7,20 +7,20 @@ import iconArray from '../icon_factory';
 
 const About = () => {
   return (
-    <div className="section_container" id="about">
-      <div className="about">
-        <h1 className="section__heading">About me</h1>
-        <div className="section__content">
-          <img alt="profile" src={Me} style={{ borderRadius: '50%' }} />
+    <div className='section_container' id='about'>
+      <div className='about'>
+        <h1 className='section__heading'>About me</h1>
+        <div className='section__content'>
+          <img alt='profile' src={Me} style={{ borderRadius: '50%' }} />
           <p>
-            Hi there! My name is Tanner and I am a Computer Science graduate
-            from CSU East Bay in Hayward, CA. My degree was focused around
-            Full-Stack Software Engineering and on the side, I self taught
-            myself Product Design. I have a passion for designing and creating
-            wonderful applications that provide purpose and meaning in users
-            lives. Below are some of the skills and technologies I know.
+            My name is Tanner Barcelos and I am a Senior Full-Stack Software
+            Engineer at Visa working on the Large Scale Data Platform Team. I
+            currently have 1 years experience building, shipping and maintaining
+            large scale, user facing distributed applications. I graduated from
+            CSU East Bay with a degree in Computer Science with Deans honors.
+            Below are some of the skills and tools I have experience with.
           </p>
-          <div className="technologies_container">
+          <div className='technologies_container'>
             {iconArray.map((icon, i) => (
               <TechnologyItem key={i} icon={icon} />
             ))}

@@ -77,15 +77,12 @@ html {
   align-items: center;
   justify-content: space-evenly;
   margin-right: 2rem;
-  border: 1.5px solid rgba(255, 255, 255, 0.315);
-  border-radius: 50%;
   width: 60px;
   padding: 1rem;
 }
 
 .hero-content .socials a:hover {
   cursor: pointer;
-  background-color: #4000ff4f;
 }
 
 .hero-content .contact-me-cta {
@@ -93,9 +90,8 @@ html {
   width: 200px;
   height: 50px;
   margin-top: 2rem;
-  border-radius: 15px;
   color: rgba(255, 255, 255, 0.788);
-  background-color: var(--btn-bg);
+  background-color: #00000097;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +99,7 @@ html {
 
 .hero-content .contact-me-cta:hover {
   transform: scale(1.02);
-  background-color: #4000ff96;
+  background-color: #00000048;
   transition: 0.1s ease-in-out all;
 }
 
@@ -165,15 +161,14 @@ html {
   text-decoration: none;
   width: 140px;
   border: none;
-  background-color: var(--btn-bg);
+  background-color: #00000097;
   color: rgba(255, 255, 255, 0.76);
-  border-radius: 15px;
-  margin: 1rem 1rem 4rem 0;
+  margin: 1rem 1rem 4rem;
 }
 
 .project-item .btn_:hover {
   transform: scale(1.02);
-  background-color: #4000ff96;
+  background-color: #00000048;
   transition: 0.1s ease-in-out all;
 }
 
@@ -210,8 +205,7 @@ html {
 }
 
 .explanation-container .technologies-used .tech-span {
-  background-color: #623fca5b;
-  border-radius: 5px;
+  background-color: #00000097;
   min-width: 4rem;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.74);
@@ -281,7 +275,8 @@ html {
 
 .recommendation_container .rec-card {
   width: 450px;
-  min-height: 425px;
+  height: 450px;
+  overflow: auto;
   line-height: 1.5rem;
   padding: 1rem;
   position: relative;
@@ -324,7 +319,7 @@ html {
   }
   .hero-content .socials a {
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 8px;
   }
 
