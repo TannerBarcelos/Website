@@ -1,5 +1,5 @@
 :root {
-  --bg-color-dark: #170055;
+  --bg-color-dark: #0b0028;
   --btn-bg: #5d3abe94;
   --main-color: #7b113a;
   --secondary-color: #6f6c8b;
@@ -23,7 +23,7 @@ html {
 }
 
 .section_container:nth-child(even) {
-  background: #170055f5 !important;
+  background: var(--bg-color-dark) !important;
 }
 
 .hero-content {
@@ -126,8 +126,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #38207c4f !important;
-  border-radius: 15px;
+  background-color: #1c0d434f !important;
   border: none;
   width: 100%;
   min-height: 400px;
@@ -281,7 +280,6 @@ html {
   padding: 1rem;
   position: relative;
   border: none;
-  border-radius: 15px;
   background-color: #38207c4f !important;
   color: rgba(230, 230, 230, 0.952);
   margin-bottom: 1rem;
