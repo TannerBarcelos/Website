@@ -23,7 +23,7 @@ const Home = () => {
           </a>
 
           <a
-            href='https://drive.google.com/file/d/1r_jZFhB_8bDX1FfAHpfg6mF-cN-c_VZC/view?usp=sharing'
+            href='https://drive.google.com/file/d/19TdAEUmc1jlK7p-fikhZCA8D1wfG7dgS/view?usp=sharing'
             target='_blank'
           >
             <i className='far fa-file'></i>
