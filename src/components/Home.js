@@ -29,7 +29,7 @@ const Home = () => {
             <i className='far fa-file'></i>
           </a>
 
-          <a href='https://medium.com/@tanner.manuel.barcelos' target='_blank'>
+          <a href='https://medium.com/@tannerbarcelos' target='_blank'>
             <i class='fab fa-medium'></i>
           </a>
         </div>
