@@ -8,7 +8,9 @@ const Home = () => {
       <div className='hero-content'>
         <div className='headline'>
           <h1>Hi, I'm Tanner</h1>
-          <span>Software Engineer. Researcher. Computer Scientist.</span>
+          <span>
+            Senior Software Engineer @ Visa. Researcher. Computer Scientist.
+          </span>
         </div>
         <div className='socials'>
           <a href='https://github.com/TannerBarcelos' target='_blank'>

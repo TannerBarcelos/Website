@@ -6,9 +6,9 @@ import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <div className="section_container" id="projects">
-      <div className="projects">
-        <h1 className="section__heading">Projects</h1>
+    <div className='section_container' id='projects'>
+      <div className='projects'>
+        <h1 className='section__heading'>Projects</h1>
         {ProjectList.map((project) => {
           return (
             <ProjectItem

@@ -1,6 +1,23 @@
 [
   {
-    "title": "CoffeeConnection",
+    "title": "Affirmations",
+    "link": "https://www.affirmations.life",
+    "code_link": "https://github.com/TannerBarcelos/Affirmation",
+    "technologies": [
+      "React",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Docker",
+      "AWS",
+      "Nginx"
+    ],
+    "description": "Gain self confidence, improve how you tackle and improve your mental health and foster the ability to think and learn from your past to improve your future",
+    "image": "affirmations",
+    "btnText": "See Live"
+  },
+  {
+    "title": "Coffee Connection",
     "link": "https://coffee-connection.herokuapp.com/",
     "code_link": "https://github.com/TannerBarcelos/Coffee-Connection",
     "technologies": [

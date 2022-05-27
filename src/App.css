@@ -1,6 +1,6 @@
 :root {
-  --bg-color-dark: #0b0028;
-  --btn-bg: #5d3abe94;
+  --bg-color-dark: #140d25f4;
+  --btn-bg: #2f1e5f94;
   --main-color: #7b113a;
   --secondary-color: #6f6c8b;
 }
@@ -9,7 +9,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 html {
@@ -73,7 +73,7 @@ html {
   display: flex;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.726);
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   align-items: center;
   justify-content: space-evenly;
   margin-right: 2rem;
@@ -83,6 +83,7 @@ html {
 
 .hero-content .socials a:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .hero-content .contact-me-cta {
@@ -98,9 +99,7 @@ html {
 }
 
 .hero-content .contact-me-cta:hover {
-  transform: scale(1.02);
   background-color: #00000048;
-  transition: 0.1s ease-in-out all;
 }
 
 .projects {
@@ -118,7 +117,7 @@ html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 10rem 0 3rem 0;
+  padding: 4rem 0 3rem 0;
   font-size: 4rem;
 }
 
@@ -126,11 +125,12 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #1c0d434f !important;
+  background-color: var(--bg-color-dark);
   border: none;
   width: 100%;
   min-height: 400px;
   margin: 1rem 0;
+  border-radius: 10px;
 }
 
 .project-item:nth-child(even) {
@@ -163,12 +163,11 @@ html {
   background-color: #00000097;
   color: rgba(255, 255, 255, 0.76);
   margin: 1rem 1rem 4rem;
+  border-radius: 10px;
 }
 
 .project-item .btn_:hover {
-  transform: scale(1.02);
   background-color: #00000048;
-  transition: 0.1s ease-in-out all;
 }
 
 .btn-container {
@@ -178,11 +177,12 @@ html {
 
 .project-item img {
   object-fit: cover;
-  border-radius: 5px;
-  width: 400px;
-  height: 400px;
   overflow: hidden;
+  border-radius: 5px;
+  width: 600px;
+  height: 400px;
   margin: 1rem;
+  border-radius: 10px;
 }
 
 .project-item .project-description {
@@ -201,6 +201,7 @@ html {
   align-items: center;
   flex-wrap: wrap;
   min-height: 3rem;
+  border-radius: 10px;
 }
 
 .explanation-container .technologies-used .tech-span {
@@ -258,6 +259,7 @@ html {
   border: none !important;
   border-radius: 3px !important;
   width: 200px;
+  border-radius: 10px;
 }
 
 .recommendation_container {
@@ -274,15 +276,16 @@ html {
 
 .recommendation_container .rec-card {
   width: 450px;
-  height: 450px;
+  min-height: 450px;
   overflow: auto;
   line-height: 1.5rem;
   padding: 1rem;
   position: relative;
   border: none;
-  background-color: #38207c4f !important;
+  background-color: var(--bg-color-dark);
   color: rgba(230, 230, 230, 0.952);
   margin-bottom: 1rem;
+  border-radius: 10px;
 }
 
 .recommendation_container .rec-card #text_of {
@@ -303,9 +306,9 @@ html {
   color: rgba(186, 223, 238, 0.671);
 }
 
-.linkedin-btn:hover {
-  transform: scale(1.05);
-  transition: 0.2s ease-in-out;
+#me {
+  object-fit: cover;
+  overflow: hidden;
 }
 
 /* Media Queries */
@@ -354,6 +357,7 @@ html {
 
   .hero-content .contact-me-cta {
     width: 100%;
+    border-radius: 10px;
   }
 
   .section__content {

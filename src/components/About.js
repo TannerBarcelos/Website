@@ -11,7 +11,7 @@ const About = () => {
       <div className='about'>
         <h1 className='section__heading'>About me</h1>
         <div className='section__content'>
-          <img alt='profile' src={Me} style={{ borderRadius: '50%' }} />
+          <img alt='profile' src={Me} style={{ borderRadius: '50%' }} id='me' />
           <p>
             My name is Tanner Barcelos and I am a Senior Full-Stack Software
             Engineer at Visa working on the Large Scale Data Platform Team. I
