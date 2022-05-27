@@ -6,7 +6,6 @@ import mysql from './tech_icons/mysql.svg';
 import mongodb from './tech_icons/mongodb.svg';
 import javascript from './tech_icons/javascript.svg';
 import html from './tech_icons/html.png';
-import vue from './tech_icons/vue.png';
 import docker from './tech_icons/docker.png';
 import css from './tech_icons/css.png';
 import aws from './tech_icons/aws.png';
