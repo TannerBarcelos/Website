@@ -1,9 +1,6 @@
-import React from 'react';
-import TechnologyItem from './TechnologyItem';
-
-import Me from '../images/me.jpg';
-
-import iconArray from '../icon_factory';
+import TechnologyItem from '../Components/TechnologyItem';
+import Me from '../Assets/Images/me.jpg';
+import iconArray from '../icons';
 
 const About = () => {
   return (

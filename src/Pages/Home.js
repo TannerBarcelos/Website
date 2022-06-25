@@ -1,16 +1,12 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
-
 const Home = () => {
   return (
     <div className='section_container' id='home'>
       <div className='hero-content'>
         <div className='headline'>
           <h1>Hi, I'm Tanner</h1>
-          <span>
-            Senior Software Engineer @ Visa. Researcher. Computer Scientist.
-          </span>
+          <span>Senior Software Engineer at Visa | Creator</span>
         </div>
         <div className='socials'>
           <a href='https://github.com/TannerBarcelos' target='_blank'>

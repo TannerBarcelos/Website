@@ -1,15 +1,15 @@
-import redux from './tech_icons/redux.svg';
-import react from './tech_icons/react.svg';
-import python from './tech_icons/python.svg';
-import node from './tech_icons/node.svg';
-import mysql from './tech_icons/mysql.svg';
-import mongodb from './tech_icons/mongodb.svg';
-import javascript from './tech_icons/javascript.svg';
-import html from './tech_icons/html.png';
-import docker from './tech_icons/docker.png';
-import css from './tech_icons/css.png';
-import aws from './tech_icons/aws.png';
-import express from './tech_icons/express.jpeg';
+import redux from './Assets/Icons/redux.svg';
+import react from './Assets/Icons/react.svg';
+import python from './Assets/Icons/python.svg';
+import node from './Assets/Icons/node.svg';
+import mysql from './Assets/Icons/mysql.svg';
+import mongodb from './Assets/Icons/mongodb.svg';
+import javascript from './Assets/Icons/javascript.svg';
+import html from './Assets/Icons/html.png';
+import docker from './Assets/Icons/docker.png';
+import css from './Assets/Icons/css.png';
+import aws from './Assets/Icons/aws.png';
+import express from './Assets/Icons/express.png';
 
 const iconArray = [
   {

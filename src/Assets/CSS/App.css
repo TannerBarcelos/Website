@@ -1,8 +1,10 @@
 :root {
-  --bg-color-dark: #140d25f4;
-  --btn-bg: #2f1e5f94;
+  --bg-color-dark: #121212;
+  --btn-bg: #03dac6;
   --main-color: #7b113a;
-  --secondary-color: #6f6c8b;
+  --secondary-color: #726d9f;
+  --card-color: #1d1d1dd7;
+  --radius: 5px;
 }
 
 * {
@@ -91,15 +93,21 @@ html {
   width: 200px;
   height: 50px;
   margin-top: 2rem;
-  color: rgba(255, 255, 255, 0.788);
-  background-color: #00000097;
+  color: var(--bg-color-dark);
+  background-color: var(--btn-bg);
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: var(--radius);
 }
 
 .hero-content .contact-me-cta:hover {
-  background-color: #00000048;
+  opacity: 0.9;
+}
+
+.linked-in {
+  color: var(--btn-bg);
+  border-radius: var(--radius);
 }
 
 .projects {
@@ -125,12 +133,12 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--bg-color-dark);
   border: none;
   width: 100%;
   min-height: 400px;
   margin: 1rem 0;
-  border-radius: 10px;
+  border-radius: var(--radius);
+  background-color: var(--card-color);
 }
 
 .project-item:nth-child(even) {
@@ -138,7 +146,7 @@ html {
 }
 
 .project-item .explanation-container {
-  width: 50%;
+  width: 45%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -160,14 +168,14 @@ html {
   text-decoration: none;
   width: 140px;
   border: none;
-  background-color: #00000097;
-  color: rgba(255, 255, 255, 0.76);
+  background-color: var(--btn-bg);
+  color: var(--bg-color-dark);
   margin: 1rem 1rem 4rem;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .project-item .btn_:hover {
-  background-color: #00000048;
+  opacity: 0.9;
 }
 
 .btn-container {
@@ -205,7 +213,8 @@ html {
 }
 
 .explanation-container .technologies-used .tech-span {
-  background-color: #00000097;
+  background-color: var(--bg-color-dark);
+  border-radius: var(--radius);
   min-width: 4rem;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.74);
@@ -282,10 +291,10 @@ html {
   padding: 1rem;
   position: relative;
   border: none;
-  background-color: var(--bg-color-dark);
+  background-color: var(--card-color);
   color: rgba(230, 230, 230, 0.952);
   margin-bottom: 1rem;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .recommendation_container .rec-card #text_of {
@@ -333,7 +342,7 @@ html {
   }
 
   .hero-content .socials a:hover {
-    box-shadow: none;
+    opacity: 0.9;
   }
 
   .hero-content .socials a {
@@ -372,7 +381,8 @@ html {
   }
 
   .section__content p {
-    width: 100%;
+    padding-top: 2rem;
+    max-width: 100%;
   }
 
   .project-item {
@@ -380,6 +390,7 @@ html {
     width: 90vw;
     flex-direction: column-reverse;
     margin-bottom: 3rem;
+    background-color: var(--card-color);
   }
 
   .project-item:nth-child(even) {
@@ -391,6 +402,7 @@ html {
     text-align: center;
     font-size: 2rem !important;
     margin-top: -1rem;
+    font-weight: 700;
   }
 
   .project-item img {

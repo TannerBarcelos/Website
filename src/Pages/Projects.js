@@ -1,8 +1,5 @@
-import React from 'react';
-
-// Projects JSON file
-import ProjectList from '../projects.json';
-import ProjectItem from './ProjectItem';
+import ProjectList from '../Assets/Data/projects.json';
+import ProjectItem from '../Components/ProjectItem';
 
 const Projects = () => {
   return (

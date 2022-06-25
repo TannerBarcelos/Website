@@ -1,16 +1,13 @@
-import React from 'react';
-
-// Image imports locally to be parsed from JSON and in our own custom object
-import coffee_connection from '../images/coffee_connection.png';
-import youtube from '../images/youtube.png';
-import movie_app from '../images/movie_app.png';
-import covid from '../images/covid.png';
-import coin from '../images/coinsight.png';
-import stream from '../images/stream.png';
-import baysbookland from '../images/baysbookland.jpg';
-import weather from '../images/weather.png';
-import task from '../images/task.png';
-import affirmations from '../images/affirmations.png';
+import coffee_connection from '../Assets/Images/coffee_connection.png';
+import youtube from '../Assets/Images/youtube.png';
+import movie_app from '../Assets/Images/movie_app.png';
+import covid from '../Assets/Images/covid.png';
+import coin from '../Assets/Images/coinsight.png';
+import stream from '../Assets/Images/stream.png';
+import baysbookland from '../Assets/Images/baysbookland.jpg';
+import weather from '../Assets/Images/weather.png';
+import task from '../Assets/Images/task.png';
+import affirmations from '../Assets/Images/affirmations.png';
 
 const imgMap = {
   affirmations: affirmations,
