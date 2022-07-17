@@ -1,10 +1,10 @@
 :root {
-  --bg-color-dark: #121212;
+  --bg-color-dark: #121212ec;
   --btn-bg: #03dac6;
   --main-color: #7b113a;
   --secondary-color: #726d9f;
-  --card-color: #1d1d1dd7;
-  --radius: 5px;
+  --card-color: #13101070;
+  --radius: 10px;
 }
 
 * {
@@ -15,7 +15,7 @@
 }
 
 html {
-  scroll-behavior: smooth; /* Scroll to anchor smoothly*/
+  scroll-behavior: smooth;
 }
 
 .section_container {
@@ -111,12 +111,13 @@ html {
 }
 
 .projects {
-  max-width: 80vw;
+  max-width: 75vw;
   min-height: 100vh; /* Allow the container to expand with more and more projects*/
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 1rem;
 }
 
 .section__heading {
@@ -151,12 +152,13 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: var(--radius);
 }
 
 .project-item .explanation-container h3 {
   color: rgba(230, 230, 230, 0.87);
   font-size: 2rem;
-  padding: 2rem 0 0 0;
+  padding: 2rem 0 0 1rem;
 }
 
 .project-item .btn_ {
