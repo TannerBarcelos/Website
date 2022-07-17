@@ -9,13 +9,18 @@ const Home = () => {
           <span>Senior Software Engineer at Visa | Creator</span>
         </div>
         <div className='socials'>
-          <a href='https://github.com/TannerBarcelos' target='_blank'>
+          <a
+            href='https://github.com/TannerBarcelos'
+            target='_blank'
+            title='GitHub'
+          >
             <i className='fab fa-github'></i>
           </a>
 
           <a
             href='https://www.linkedin.com/in/tanner-barcelos-695619a1/'
             target='_blank'
+            title='LinkedIn'
           >
             <i className='fab fa-linkedin'></i>
           </a>
@@ -23,11 +28,16 @@ const Home = () => {
           <a
             href='https://drive.google.com/file/d/19TdAEUmc1jlK7p-fikhZCA8D1wfG7dgS/view?usp=sharing'
             target='_blank'
+            title='Resume'
           >
             <i className='far fa-file'></i>
           </a>
 
-          <a href='https://medium.com/@tannerbarcelos' target='_blank'>
+          <a
+            href='https://medium.com/@tannerbarcelos'
+            target='_blank'
+            title='Blog'
+          >
             <i class='fab fa-medium'></i>
           </a>
         </div>

@@ -1,4 +1,4 @@
-import TestimonialItem from '../Components/TestimonialItem';
+import TestimonialItem from '../Components/TestimonialItem.jsx';
 import recs from '../Assets/Data/recs.json';
 
 const Testimonials = () => {

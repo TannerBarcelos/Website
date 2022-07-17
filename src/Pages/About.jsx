@@ -1,4 +1,4 @@
-import TechnologyItem from '../Components/TechnologyItem';
+import TechnologyItem from '../Components/TechnologyItem.jsx';
 import Me from '../Assets/Images/me.jpg';
 import iconArray from '../icons';
 

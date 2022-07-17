@@ -1,5 +1,5 @@
 import ProjectList from '../Assets/Data/projects.json';
-import ProjectItem from '../Components/ProjectItem';
+import ProjectItem from '../Components/ProjectItem.jsx';
 
 const Projects = () => {
   return (

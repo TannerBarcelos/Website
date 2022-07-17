@@ -43,43 +43,6 @@
     "image": "coin",
     "btnText": "See Live"
   },
-
-  {
-    "title": "Baysbook",
-    "link": "https://glacial-journey-55442.herokuapp.com/?fbclid=IwAR0CtCB32bMNEhIemAEnNwCqBfIslK78WeEZ2XRgLG9zS6PpC_mDSO3WMlc",
-    "code_link": "https://github.com/TannerBarcelos/BaysBook",
-    "technologies": [
-      "React",
-      "Redux",
-      "CSS",
-      "NodeJS",
-      "Express",
-      "MongoDB",
-      "SASS",
-      "Bootstrap"
-    ],
-    "description": "A full stack MERN application that allows the students of CSU East Bay to connect",
-    "image": "baysbookland",
-    "btnText": "See Live"
-  },
-  {
-    "title": "YouTube Clone",
-    "link": "https://tanneryoutubeclone.netlify.app/",
-    "code_link": "https://github.com/TannerBarcelos/Basic_YouTube_Clone",
-    "technologies": ["React", "ExpressJS", "NodeJS", "SemanticUI"],
-    "description": "A frontend web application leveraging React and the YouTube API for querying user video searches and playing them in the browser",
-    "image": "youtube",
-    "btnText": "See Live"
-  },
-  {
-    "title": "Movie Finder",
-    "link": "https://github.com/TannerBarcelos/Movie-Search",
-    "code_link": "",
-    "technologies": ["React", "ExpressJS", "NodeJS", "SemanticUI"],
-    "description": "A frontend web application using the TMDb Movie Search API to render out movies with keyword search or top trending movies in the US",
-    "image": "movie_app",
-    "btnText": "GitHub"
-  },
   {
     "title": "COVID-19 Visualizer",
     "link": "https://tannerbarcelos.github.io/covid-visualizer/",
