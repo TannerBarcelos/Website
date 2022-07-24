@@ -24,15 +24,6 @@ const Home = () => {
           >
             <i className='fab fa-linkedin'></i>
           </a>
-
-          <a
-            href='https://drive.google.com/file/d/19TdAEUmc1jlK7p-fikhZCA8D1wfG7dgS/view?usp=sharing'
-            target='_blank'
-            title='Resume'
-          >
-            <i className='far fa-file'></i>
-          </a>
-
           <a
             href='https://medium.com/@tannerbarcelos'
             target='_blank'
@@ -41,13 +32,22 @@ const Home = () => {
             <i class='fab fa-medium'></i>
           </a>
         </div>
-        <a
-          className='contact-me-cta'
-          href='mailto:barcelos.m.tanner@gmail.com?subject=Reaching Out'
-          target='_blank'
-        >
-          Contact Me
-        </a>
+        <div className='contact-container'>
+          <a
+            className='contact-me-cta'
+            href='mailto:barcelos.m.tanner@gmail.com?subject=Reaching Out'
+            target='_blank'
+          >
+            Contact Me
+          </a>
+          <a
+            className='resume-cta'
+            href='https://drive.google.com/file/d/19TdAEUmc1jlK7p-fikhZCA8D1wfG7dgS/view?usp=sharing'
+            target='_blank'
+          >
+            Resume
+          </a>
+        </div>
       </div>
     </div>
   );
