@@ -23,6 +23,7 @@ html {
   min-height: 100vh;
   background: var(--bg-color-dark) !important;
   position: relative;
+  padding: 1rem;
 }
 
 .section_container:nth-child(even) {
@@ -38,7 +39,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   flex-direction: column;
-  padding: 3rem;
+  padding: 0 5rem;
 }
 
 .hero-content .headline h1 {
@@ -66,7 +67,8 @@ html {
   display: flex;
   gap: 2rem;
   align-items: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
+  margin-top: 1rem;
 }
 
 .hero-content .resume-cta {
@@ -98,31 +100,6 @@ html {
   background-color: var(--btn-bg);
   transition: 0.1s ease-in-out;
   color: var(--bg-color-dark);
-}
-
-.socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 5rem;
-  position: fixed;
-  right: 1rem;
-  top: 550px;
-  height: 350px;
-  z-index: 100000;
-}
-
-.socials a {
-  font-size: 2rem;
-  text-decoration: none;
-  color: var(--btn-bg);
-}
-
-.socials a:hover {
-  color: var(--btn-bg);
-  opacity: 0.8;
-  transition: 0.1s ease-in-out;
 }
 
 .projects {
@@ -339,7 +316,10 @@ html {
   overflow: hidden;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
+  .section_container {
+    position: relative;
+  }
   .hero-content {
     width: 100vw;
     text-align: center;
@@ -353,6 +333,12 @@ html {
   .hero-content .headline h1 {
     font-size: 4rem;
     font-weight: normal;
+  }
+
+  .project-item .project-description {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0;
   }
 
   .hero-content .headline span:first-of-type {
@@ -375,18 +361,6 @@ html {
     text-align: left;
   }
 
-  .socials {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 20rem;
-    position: absolute;
-    right: 120px;
-    height: 100px;
-    top: 850px;
-  }
-
   .section__heading {
     font-size: 2.8rem;
     padding: 8rem 0 3rem 0;
@@ -404,6 +378,7 @@ html {
     flex-direction: column-reverse;
     margin-bottom: 3rem;
     background-color: var(--card-color);
+    padding: 0 0.5rem;
   }
 
   .project-item:nth-child(even) {
@@ -419,9 +394,9 @@ html {
   }
 
   .project-item img {
+    object-fit: cover;
     width: 85vw;
     height: 350px;
-    margin-top: 2rem;
     margin-left: 10px;
     margin-right: 10px;
     padding: 0;

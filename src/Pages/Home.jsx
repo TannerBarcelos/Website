@@ -23,44 +23,14 @@ const Home = () => {
           >
             Resume
           </a>
+          <a
+            className='resume-cta'
+            href='https://linktr.ee/tannermbarcelos'
+            target='_blank'
+          >
+            Socials
+          </a>
         </div>
-      </div>
-      <div className='socials'>
-        <a
-          href='https://github.com/TannerBarcelos'
-          target='_blank'
-          title='GitHub Profile'
-        >
-          <i className='fab fa-github'></i>
-        </a>
-        <a
-          href='https://www.linkedin.com/in/tanner-barcelos-695619a1/'
-          target='_blank'
-          title='LinkedIn Profile'
-        >
-          <i className='fab fa-linkedin'></i>
-        </a>
-        <a
-          href='https://www.youtube.com/channel/UCce_URD7JVNz9R4WuZH1X3g'
-          target='_blank'
-          title='Youtube Channel'
-        >
-          <i class='fab fa-youtube'></i>
-        </a>
-        <a
-          href='https://tanner.hashnode.dev/'
-          target='_blank'
-          title='Hashnode Blog'
-        >
-          <i class='fab fa-hashnode'></i>
-        </a>
-        <a
-          href='https://twitter.com/dev_with_tanner'
-          target='_blank'
-          title='Technical Twitter Profile'
-        >
-          <i class='fab fa-twitter'></i>
-        </a>
       </div>
     </div>
   );
